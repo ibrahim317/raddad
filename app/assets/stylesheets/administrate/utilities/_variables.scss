@@ -41,18 +41,18 @@ $header-height: 5.6rem;
 $woot-logo-padding: $space-large $space-two;
 
 // Colors
-$color-woot: #1f93ff;
-$color-gray: #6e6f73;
-$color-light-gray: #747677;
-$color-border: #e0e6ed;
-$color-border-light: #f0f4f5;
-$color-background: #f4f6fb;
-$color-border-dark: #cad0d4;
-$color-background-light: #f9fafc;
+$color-woot: rgb(var(--color-mint-500));
+$color-gray: rgb(var(--color-mint-700));
+$color-light-gray: rgb(var(--color-mint-600));
+$color-border: rgb(var(--color-mint-100));
+$color-border-light: rgb(var(--color-mint-50));
+$color-background: rgb(var(--color-mint-75));
+$color-border-dark: rgb(var(--color-mint-200));
+$color-background-light: rgb(var(--color-mint-25));
 $color-white: #fff;
-$color-body: #3c4858;
-$color-heading: #1f2d3d;
-$color-extra-light-blue: #f5f7f9;
+$color-body: rgb(var(--color-mint-800));
+$color-heading: rgb(var(--color-mint-900));
+$color-extra-light-blue: rgb(var(--color-mint-50));
 
 $primary-color: $color-woot;
 $secondary-color: #5d7592;
@@ -64,8 +64,8 @@ $masked-bg: rgba(0, 0, 0, .4);
 
 // Color-palettes
 
-$color-primary-light: #c7e3ff;
-$color-primary-dark: darken($color-woot, 20%);
+$color-primary-light: rgb(134, 234, 212);
+$color-primary-dark: rgb(2, 120, 100);
 
 // Thumbnail
 $thumbnail-radius: 4rem;
