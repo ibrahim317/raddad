@@ -11,22 +11,24 @@ const {
   redDark,
   violet,
   violetDark,
+  mint,
+  mintDark,
 } = require('@radix-ui/colors');
 
 export const colors = {
   woot: {
-    25: 'rgb(var(--color-mint-25) / <alpha-value>)',
-    50: 'rgb(var(--color-mint-50) / <alpha-value>)',
-    75: 'rgb(var(--color-mint-75) / <alpha-value>)',
-    100: 'rgb(var(--color-mint-100) / <alpha-value>)',
-    200: 'rgb(var(--color-mint-200) / <alpha-value>)',
-    300: 'rgb(var(--color-mint-300) / <alpha-value>)',
-    400: 'rgb(var(--color-mint-400) / <alpha-value>)',
-    500: 'rgb(var(--color-mint-500) / <alpha-value>)',
-    600: 'rgb(var(--color-mint-600) / <alpha-value>)',
-    700: 'rgb(var(--color-mint-700) / <alpha-value>)',
-    800: 'rgb(var(--color-mint-800) / <alpha-value>)',
-    900: 'rgb(var(--color-mint-900) / <alpha-value>)',
+    25: mint.mint2,
+    50: mint.mint3,
+    75: mint.mint4,
+    100: mint.mint5,
+    200: mint.mint7,
+    300: mint.mint8,
+    400: mintDark.mint11,
+    500: mintDark.mint10,
+    600: mintDark.mint9,
+    700: mintDark.mint8,
+    800: mintDark.mint6,
+    900: mintDark.mint2,
   },
   green: {
     50: greenDark.green12,
@@ -391,7 +393,7 @@ export const colors = {
     },
 
     black: '#000000',
-    brand: '#2781F6',
+    brand: '#58D5BA',
     background: 'rgb(var(--background-color) / <alpha-value>)',
     solid: {
       1: 'rgb(var(--solid-1) / <alpha-value>)',
@@ -415,5 +417,6 @@ export const colors = {
     strong: 'rgb(var(--border-strong) / <alpha-value>)',
     'blue-border': 'rgba(var(--border-blue))',
     'blue-text': 'rgba(var(--text-blue))',
+    'mint-text': 'rgba(var(--text-mint))',
   },
 };

@@ -152,7 +152,7 @@ export default {
             <span
               class="text-xs font-medium hover:text-n-brand truncate min-w-0 dark:hover:text-n-brand"
               :class="{
-                'text-n-blue-text dark:text-n-blue-text':
+                'text-n-mint-text dark:text-n-mint-text':
                   activeSort === option.key,
                 'text-n-slate-11': activeSort !== option.key,
               }"
@@ -161,7 +161,7 @@ export default {
             </span>
             <span
               v-if="activeSort === option.key"
-              class="i-lucide-check size-2.5 flex-shrink-0 text-n-blue-text"
+              class="i-lucide-check size-2.5 flex-shrink-0 text-n-mint-text"
             />
           </div>
         </div>
