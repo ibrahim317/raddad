@@ -23,6 +23,7 @@ const showBadge = useMapGetter(props.getterKeys.badge);
     :is="to ? 'router-link' : 'div'"
     class="flex items-center gap-2 px-2 py-1.5 rounded-lg h-8"
     role="button"
+    draggable="false"
     :to="to"
     :title="label"
     :class="{
