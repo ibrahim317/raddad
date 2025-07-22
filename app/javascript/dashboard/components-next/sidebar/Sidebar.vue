@@ -338,8 +338,6 @@ const menuItems = computed(() => {
         },
       ],
     },
-      ],
-    },
     // {
     //   name: 'Portals',
     //   label: t('SIDEBAR.HELP_CENTER.TITLE'),
